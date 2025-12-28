@@ -1,38 +1,26 @@
-# frontend
+# GDUE-SMS 学生管理系统
 
-This template should help get you started developing with Vue 3 in Vite.
+一个基于前后端分离架构的学生信息管理系统，采用 Spring Boot + Vue 3 技术栈开发。
 
-## Recommended IDE Setup
+## 项目简介
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+GDUE-SMS（学生管理系统）是一个现代化的Web应用，用于管理学生基本信息和专业信息。系统提供完整的CRUD功能，支持分页查询、条件筛选等特性。
 
-## Recommended Browser Setup
+## 技术栈
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+### 后端
+- Java 25
+- Spring Boot 3.5.9
+- MyBatis 3.0.5
+- MySQL 8.0+
+- PageHelper 1.4.7（分页插件）
+- Lombok
 
-## Customize configuration
+### 前端
+- Vue 3.2.38
+- Vue Router 4.1.5
+- Element Plus 2.4.4
+- Axios 1.7.2
+- Vite 7.2.4
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+## 项目结构
